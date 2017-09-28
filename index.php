@@ -1,5 +1,5 @@
 <?php
-$data = file_get_contents('https://www.codeschool.com/users/itcodnag.json');
+$data = file_get_contents('https://www.codeschool.com/users/AlekseyImashev.json');
 $json_data = json_decode($data, true);
  // var_dump($json_data['courses']['completed']);
 $courses = $json_data['courses']['completed'];
